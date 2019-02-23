@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="tests"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="src/objenesis-tck-2.1.jar"/>
+	<classpathentry kind="lib" path="src/mockito-core-2.0.5-beta.jar"/>
+	<classpathentry kind="lib" path="src/joda-time-2.9-no-tzdb.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/PracaDyplomowa/src/joda-time-2.9-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="src/joda-time-2.9-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/PracaDyplomowa/src/joda-time-2.9-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="src/joda-time-2.9.jar" sourcepath="src/joda-time-2.9-javadoc.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/PracaDyplomowa/src/joda-time-2.9-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="src/joda-time-2.9-javadoc.jar"/>
+	<classpathentry kind="lib" path="src/UmlGraph.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
